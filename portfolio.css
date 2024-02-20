@@ -36,6 +36,9 @@ body{
     height:80px;
     border-radius: 10px;
 }
+.margH1,.margP{
+    margin-left:125px;
+}
 nav>a{
     margin:10px 20px;
     color:white;
@@ -445,6 +448,12 @@ form .btn2{
     }
     .work img{
         height:300px;
+    }
+    .margH1{
+        margin-left:80px;
+    }
+    .margP{
+        margin-left:55px;
     }
 
 }
