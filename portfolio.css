@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@500;600&display=swap');
 html{
     scroll-behavior: smooth;
 }
@@ -69,6 +69,9 @@ nav>a:hover::after{
     color:crimson;
 }
 
+.mainImg{
+    height:500px;
+}
 /* -------------------about-------------------------- */
 
 #about{
@@ -354,7 +357,9 @@ form .btn2{
         background-image: url();
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 0px;
+        padding-top: 0vh;
+        width:100%;
         font-size:14px;
     }
     .header-text h1{
@@ -430,14 +435,16 @@ form .btn2{
     .work-list > div{
         margin-top:50px;
     }
-    .header-text{
-        font-size: 12px;
-        padding-top: 44vh;
-        width:70%;
-        text-shadow:1px 1px  1px rgba(26, 24, 24, 0.646); 
-    }
+    
     .header-text span{
         text-shadow:2px 2px black;
+    }
+    .mainImg{
+        height:350px;
+        width:300px;
+    }
+    .work img{
+        height:300px;
     }
 
 }
